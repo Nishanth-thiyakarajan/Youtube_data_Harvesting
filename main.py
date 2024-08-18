@@ -3,7 +3,7 @@ import pandasDF as PD
 import MongoDB as MDB
 import SQLDB as SDB
 
-#To get the API Key : https://console.cloud.google.com/ ---> AIzaSyB4fA7kotAiXThSgRxPcj7EmTBZrT79hTc
+#To get the API Key : https://console.cloud.google.com/
 
 api_service_name = "youtube"
 api_version = "v3"
