@@ -3,7 +3,6 @@ import sqlalchemy as sa
 import datetime
 
 # To create a conection in AWS DB : (https://ap-south-1.console.aws.amazon.com/rds/home?region=ap-south-1#databases:) -> Create DB and Enter the below Details.
-#host="database-2.c7a8644iqhxt.ap-south-1.rds.amazonaws.com",database = 'youtube',user="postgres",password="Nishanth99",port="5432"
 connection_Postgres = ps.connect(host="HOST",database = 'DB_NAME',user="USER",password="PASSWD",port="PORT")
 cursor = connection_Postgres.cursor()
 #postgresql://postgres:Nishanth99@database-2.c7a8644iqhxt.ap-south-1.rds.amazonaws.com:5432/youtube
