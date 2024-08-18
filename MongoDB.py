@@ -1,7 +1,6 @@
 import pymongo as pm
 
 #To get the Connection code : https://cloud.mongodb.com/v2/66940921c5479449e13a2075#/overview
-#mongodb+srv://Nishanth:Nishanth99@cluster0.1e2vg3x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 connection_MongoDB = pm.MongoClient("YOUR_CONNNECTION CODE")
 
 channel_db = connection_MongoDB.Youtube.Channels
